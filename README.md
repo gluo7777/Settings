@@ -1,0 +1,2 @@
+# Settings
+Contains configuration files
