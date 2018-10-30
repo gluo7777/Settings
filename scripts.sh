@@ -9,5 +9,5 @@ exportVsCodePlugins(){
 }
 
 importVsCodePlugins(){
-	xargs -0 chmod 755 < <(tr \\n \\0 <$pluginFile);
+	sh "$pluginFile";	
 }
